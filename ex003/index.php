@@ -8,9 +8,14 @@
 <body>
     <h1>Teste de tipos primitivos</h1>
     <?php 
-    $num = 300;
-    echo "O valor da variável é $num";
-    
+    $canal = "Curso em vídeo";
+    $ano = date('Y');
+    echo <<< TESTE
+        Olá pessoal do $canal! 
+                Tudo bem com vocês?
+            Como está sendo ese ano de $ano?
+        Abraços! \u{1F596}
+        TESTE;    
     ?>
 </body>
 </html>
